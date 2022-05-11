@@ -45,7 +45,7 @@ class Menu extends Component {
                     onAlgoChanged={this.props.onAlgoChanged}
                 />
                 <button
-                    className='btn btn-warning btn-lg '
+                    className='btn btn-warning btn-lg m-2'
                     onClick={this.props.onViusalize}
                     disabled={this.props.disable}
                     style={this.isClickable()}
